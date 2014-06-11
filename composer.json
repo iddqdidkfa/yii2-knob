@@ -3,7 +3,7 @@
     "description": "jQuery Knob for Yii2.",
     "keywords": ["yii", "extension", "widget", "knob", "jquery"],
     "type": "yii2-extension",
-    "license": "BSD-3-Clause",
+    "license": "GPL v2",
     "authors": [
         {
             "name": "Oleg Ilyushyn",
