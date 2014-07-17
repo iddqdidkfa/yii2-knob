@@ -788,7 +788,10 @@
         this.dynamicDraw = function (nv) {
             var instanceOfThis = this;
             dynamicDrawIndex = this.o.min;
-            dynamicDrawStep = parseInt((this.o.max - this.o.min) / 50);
+            dynamicDrawStep = parseInt((this.o.max - this.o.min) / parseInt(this.o.max / 2));
+            if (isNaN(dynamicDrawStep)) {
+                dynamicDrawStep = 1;
+            }
             dynamicDrawInterval = setInterval(function() {
                 instanceOfThis.animateDraw(nv);
             }, 20);
