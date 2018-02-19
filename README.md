@@ -1,5 +1,6 @@
 yii2-knob
 =========
+### ***!!! Not maintained anymore !!!***
 
 Yii2 widget for jQuery Knob plugin (http://anthonyterrien.com/knob/)
 
